@@ -85,6 +85,7 @@ Full, command-by-command cluster setup: **[`kubernetes/kubeadm.md`](kubernetes/k
 ## Deploy it yourself
 
 > **Prerequisites:** two Ubuntu `t2.medium` EC2s (master + worker) with the master's port `6443` open between them. Build the cluster first using **[`kubernetes/kubeadm.md`](kubernetes/kubeadm.md)**.
+After that The detailed walkthrough with verification steps and screenshots is in kubernetes/README.md.
 
 **1 — Build & push your own images** (the manifests use `<your-dockerhub-username>` placeholders):
 
